@@ -8,4 +8,9 @@ eureka:
     hostname: peer1
 spring:
   application:
-    name: web-server
+    name: web-serverp
+  cloud:
+    config:
+      profile: dev
+      label: master
+      uri: http://localhost:1000/
