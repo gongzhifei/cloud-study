@@ -1,0 +1,13 @@
+server:
+  port: 1001
+
+eureka:
+  instance:
+    hostname: peer1
+  client:
+    #����������ע������ȥ�����Լ�
+    fetch-registry: false
+    #��ʾ��������ע������ע���Լ�
+    register-with-eureka: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
