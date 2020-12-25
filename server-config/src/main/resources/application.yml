@@ -8,6 +8,6 @@ spring:
           uri: https://github.com/gongzhifei/config-center.git
           search-paths: config-repository/
           username: gongzhifei
-          password: gzfgit123
+          password: ''
 server:
   port: 1000
